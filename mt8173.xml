@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+    <remote  name="githuborigin"
+           fetch="ssh://git@github.com/mt8173/" />
+    <default revision="master"
+           remote="githuborigin"
+           sync-j="4" />
+ 
+	<project path="abi" name="abi" />
+	<project path="art" name="art" />
+	<project path="bionic" name="bionic" />
+	<project path="bootable" name="bootable" />
+	<project path="build" name="build" />
+	<project path="cts" name="cts" />
+	<project path="dalvik" name="dalvik" />
+	<project path="developers" name="developers" />
+	<project path="development" name="development" />
+	<project path="device" name="device" />
+	<project path="docs" name="docs" />
+	<project path="external" name="external" />
+	<project path="frameworks" name="frameworks" />
+	<project path="hardware" name="hardware" />
+	<project path="kernel-3.18" name="kernel-3.18" />
+	<project path="libcore" name="libcore" />
+	<project path="libnativehelper" name="libnativehelper" />
+	<project path="ndk" name="ndk" />
+	<project path="packages" name="mt8735-cts" />
+
+ 	<project path="mt8173-wisky" name="mt8173-wisky" >
+    		<copyfile src="Makefile" dest="Makefile" />
+    		<copyfile src="readme.txt" dest="readme.txt" />
+    		<copyfile src="README.md" dest="README.md" />
+    </project>
+
+	<project path="patch" name="patch" />
+    <project path="pdk" name="pdk" />
+    <project path="platform_testing" name="platform_testing"  />
+    <project path="prebuilts" name="prebuilts" />
+    <project path="pub" name="pub" />
+    <project path="sdk" name="sdk" />
+    <project path="system" name="system" />
+    <project path="toolchain" name="toolchain" />
+    <project path="tools" name="tools" />
+    <project path="trusty" name="trusty" />
+    <project path="vendor" name="vendor" />
+    <project path="wisky" name="wisky" /> 
+  
+</manifest>
